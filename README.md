@@ -1,5 +1,7 @@
 # lemon-azure-lab
-ejercicio del laboratorio del bootcamp backend de lemon code 3 edicion
+ejercicio del laboratorio del bootcamp backend de lemon code 3 edición
+
+se realizan tanto la parte [obligatoria](#obligatorio) como la [opcional](#optional)
 
 ## Obligatorio
 
@@ -57,5 +59,11 @@ para ver la parte opcional del ejercicio debemos cambiar de rama
 git switch optional
 ```
 
-en este caso tenemos la carpeta de 
+en este caso tenemos la carpeta de `azure-delete-func`, que es una función de azure. 
+
+- El código implementa casi el 100% de la aplicación de consola.
+- el trigger seleccionado para esta tarea es `QueueTrigger` al cual le pasamos el nombre de la cola que creamos para borrar imágenes.
+
+
+
 
