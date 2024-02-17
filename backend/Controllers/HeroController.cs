@@ -148,7 +148,7 @@ namespace tour_of_heroes_api.Controllers
                 };
 
                 // Send the message
-                await queueClient.SendMessageAsync(JsonSerializer.Serialize(message).ToString());
+                await queueClient.SendMessageAsync(Convert.ToBase64String(Encoding.UTF8.GetBytes(JsonSerializer.Serialize(message).ToString())));
 
             }
             /*********** End Background processs *************/
